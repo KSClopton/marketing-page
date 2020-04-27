@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPN-Co.ttf) format('truetype');
+}
 html,
 body,
 div,
@@ -124,34 +131,35 @@ table {
 }
 nav {
   display: flex;
+  color: #1B1A1A;
 }
 .links a {
   text-decoration: none;
   font-size: 1.25rem;
   color: black;
-  border: green 2px solid;
-  padding: 0 2%;
+  padding-right: 40%;
+  font-weight: 800;
 }
 body {
-  border: red solid 2px;
+  color: 'Raleway', sans-serif;
 }
-.title-container {
+body .title-container {
   display: flex;
   justify-content: space-between;
-  border: blue 2px solid;
   padding: 1% 1% 3% 1%;
 }
-h1 {
+body h1 {
   font-size: 3rem;
 }
-.banner {
+body .banner {
   background-color: #FF9233;
-  padding: 2% 0;
   text-align: center;
   color: white;
   font-size: 1.5rem;
+  padding: 1.2%;
+  font-family: 'Raleway', sans-serif;
 }
-.browse {
+body .browse {
   display: flex;
   flex-direction: column;
   background-image: url("/Users/kylebecca3/Desktop/Kyles-projects/Lambda_School_Projects/marketing-page/images/Background-Image.png");
@@ -159,28 +167,37 @@ h1 {
   background-position: center center;
   height: 800px;
   justify-content: center;
+  padding: 2%;
 }
-.browse h2 {
-  font-size: 8rem;
+body .browse h2 {
+  font-size: 6rem;
+  font-family: 'Raleway', sans-serif;
+  width: 60%;
+  font-weight: bolder;
+  padding: 2% 0%;
+}
+body .browse p {
+  font-size: 2.25rem;
   width: 50%;
-  border: green solid 2px;
-}
-.browse p {
-  font-size: 3rem;
-  width: 40%;
-  line-height: 1.25;
-  border: green solid 2px;
+  line-height: 1.5;
   margin-bottom: 10%;
 }
-.button {
+body .button {
   background-color: white;
   color: black;
   font-size: 1.2rem;
   font-family: arial;
   padding: 1% 3%;
   border-radius: 6px;
+  margin: 0 0 1.5% 1.5%;
 }
-.button:hover {
+body .button:hover {
   background-color: #FF9233;
   color: black;
+}
+body .buttonborder {
+  margin: 3% 0 0.5% 0;
+  width: 100%;
+  border: 1px solid #BDBDBD;
+  box-shadow: 0px -4px 7px rgba(0, 0, 0, 0.5);
 }
