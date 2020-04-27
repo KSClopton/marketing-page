@@ -1,0 +1,56 @@
+body {
+    border: red solid 2px;
+}
+.title-container{
+    display: flex;
+    justify-content: space-between;
+    border: blue 2px solid;
+    padding: 1% 1% 3% 1%;
+}
+h1{
+    font-size: 3rem;
+}
+.banner{
+    background-color: @orange;
+    padding: 2% 0;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+.browse{
+    display: flex;
+    flex-direction: column;
+    background-image: url("/Users/kylebecca3/Desktop/Kyles-projects/Lambda_School_Projects/marketing-page/images/Background-Image.png");
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    justify-content: center;
+ 
+    
+    h2{
+        font-size: 8rem;
+        // font-family: ;
+        width: 50%;
+        border: green solid 2px;
+    }
+    p{
+        font-size: 3rem;
+        width: 40%;
+        line-height: 1.25;
+        border: green solid 2px;
+        margin-bottom: 10%;
+    }
+}
+.button{
+    .button(white, black, 1.2rem, arial);
+    padding: 1% 3%;
+    border-radius: 6px;
+
+
+    &:hover{
+        background-color: @orange;
+        color: black;
+    }
+}
